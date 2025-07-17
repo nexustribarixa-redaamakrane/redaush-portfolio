@@ -1,92 +1,74 @@
-/* General body styling */
 body {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', Arial, sans-serif;
   max-width: 700px;
   margin: 50px auto;
-  padding: 20px;
-  background: white;
-  color: black;
+  padding: 30px 25px;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
-/* Glossy effect on main headings */
-h1, h2 {
-  position: relative;
-  color: #005f73; /* blue */
-  text-shadow:
-    0 1px 0 #b3e5fc,
-    0 2px 0 #90caf9,
-    0 3px 0 #64b5f6,
-    0 4px 0 #42a5f5,
-    0 5px 10px rgba(0,0,0,0.3);
-}
-
-h1::before, h2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0));
-  border-radius: 10px;
-  pointer-events: none;
-}
-
-/* Headings colors */
 h1 {
-  border-bottom: 3px solid #c1272d; /* red underline */
-  padding-bottom: 5px;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #005f73; /* blue */
+  border-bottom: 4px solid #c1272d; /* red underline */
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(193, 39, 45, 0.5);
+  margin-bottom: 1.2em;
 }
 
 h2 {
+  font-weight: 700;
+  font-size: 2rem;
   color: #006233; /* green */
-  margin-top: 40px;
+  margin-top: 3em;
+  margin-bottom: 0.75em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* Paragraph and general text */
 p, ul {
-  font-size: 1.1rem;
-  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-bottom: 1em;
+  color: #222;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
-/* Strong and emphasis colors */
 strong {
   color: #c1272d; /* red */
+  font-weight: 700;
+  text-shadow: 0 0 3px rgba(193, 39, 45, 0.7);
 }
 
 em {
-  color: #f145cf; /* yellow/pink */
+  color: #f145cf; /* pink */
+  font-style: normal;
+  font-weight: 600;
+  text-shadow: 0 0 2px rgba(241, 69, 207, 0.6);
 }
 
-/* Glossy button style */
-.glossy-btn {
-  background: linear-gradient(145deg, #f145cf, #c1272d);
-  border: none;
-  border-radius: 12px;
-  color: white;
-  padding: 12px 25px;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(193, 39, 45, 0.6);
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.glossy-btn:hover {
-  background: linear-gradient(145deg, #c1272d, #f145cf);
-  box-shadow: 0 6px 12px rgba(193, 39, 45, 0.8);
-}
-
-/* Footer style */
 footer {
   text-align: center;
-  margin-top: 60px;
-  color: #222;
+  margin-top: 5em;
+  color: #444;
   border-top: 1px solid #c1272d;
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-shadow: 0 0 1px rgba(193, 39, 45, 0.3);
 }
 
-/* List item spacing */
 ul li {
-  margin: 10px 0;
+  margin: 12px 0;
+}
+
+/* Optional: subtle hover effect on links or emphasized text */
+em:hover, strong:hover {
+  filter: brightness(1.15);
+  cursor: default;
+  transition: filter 0.3s ease;
 }
