@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   max-width: 700px;
   margin: 50px auto;
   padding: 20px;
