@@ -9,7 +9,7 @@ Hi! I’m **Reda Amakrane** (nicknames: Redaush, Nexus Tribarixa), a student and
 ## 🌐 Visit My ePortfolio
 
 Check out my live ePortfolio here:  
-[🔥 Visit My Portfolio](https://nexusteibarixa-redaamakrane.github.io/redaush-portfolio)  
+[🔥 Visit My Portfolio](https://nexustribarixa-redaamakrane.github.io/redaush-portfolio/)  
 
 > Click the link to see my portfolio as a website!
 
