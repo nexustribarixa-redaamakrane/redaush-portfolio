@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', Arial, sans-serif;
-  max-width: 700px;
+  max-width: 800px;
   margin: 50px auto;
   padding: 30px 25px;
   background: #fff;
@@ -50,6 +50,17 @@ em {
   text-shadow: 0 0 2px rgba(241, 69, 207, 0.6);
 }
 
+a {
+  color: #005f73;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  filter: brightness(1.15);
+  transition: filter 0.3s ease;
+}
+
 footer {
   text-align: center;
   margin-top: 5em;
@@ -62,13 +73,54 @@ footer {
   text-shadow: 0 0 1px rgba(193, 39, 45, 0.3);
 }
 
-ul li {
-  margin: 12px 0;
+ul.projects {
+  list-style: none;
+  padding-left: 0;
 }
 
-/* Optional: subtle hover effect on links or emphasized text */
+ul.projects li {
+  margin-bottom: 1.2em;
+  padding-left: 0.5em;
+  border-left: 4px solid #006233;
+}
+
+ul.projects li strong {
+  color: #c1272d;
+}
+
+#collaborators {
+  background: #f9f9f9;
+  border: 2px solid #c1272d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(193, 39, 45, 0.2);
+  margin-top: 3em;
+}
+
+#collaborators p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
 em:hover, strong:hover {
   filter: brightness(1.15);
   cursor: default;
   transition: filter 0.3s ease;
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 820px) {
+  body {
+    margin: 20px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  p, ul {
+    font-size: 1.05rem;
+  }
 }
