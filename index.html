@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: 'Open Sans', Arial, sans-serif;
-      max-width: 700px;
+      max-width: 800px;
       margin: 50px auto;
       padding: 30px 25px;
       background: #fff;
@@ -73,14 +73,21 @@
       margin: 12px 0;
     }
 
-    /* Optional: subtle hover effect on links or emphasized text */
+    a {
+      color: #005f73;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
     em:hover, strong:hover {
       filter: brightness(1.15);
       cursor: default;
       transition: filter 0.3s ease;
     }
 
-    /* New styles for Collaborators section */
     #collaborators {
       background: #f9f9f9;
       border: 2px solid #c1272d;
@@ -94,19 +101,52 @@
       font-size: 1.1rem;
       line-height: 1.5;
     }
+
+    ul.projects {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.projects li {
+      margin-bottom: 1.2em;
+    }
   </style>
 </head>
 <body>
   <h1>Welcome to Redaush’s Portfolio</h1>
-  <p>Hello! I’m <strong>Reda Amakrane</strong> (nicknames: <em>Redaush</em>, <em>Nexus Tribarixa</em>). I’m a student and aspiring tech leader from Berkane, Morocco.</p>
+  <p>Hello! I’m <strong>Reda Amakrane</strong> (nicknames: <em>Redaush</em>, <em>Nexus Tribarixa</em>), a student and aspiring tech leader from Berkane, Morocco.</p>
 
   <h2>About Me</h2>
-  <p>I’m passionate about IT, cartoons, and creating innovative technology that can make a difference. I kindly ask for your support to help me achieve my dream — I don’t chase clout or trends, but truth and meaningful impact.</p>
+  <p>I’m passionate about IT, cartoons, and creating innovative technology that makes a real difference. I focus on <strong>truth and meaningful impact</strong>, not trends or clout.</p>
 
   <h2>My Ambitions & Dreams</h2>
-  <p>I’m building <strong>nVortex</strong>, a multipurpose tech company focused on AI, broadcasting, software development, and digital media. My goal is to empower communities and bring creative solutions to life.</p>
-  <p><strong>Disclaimer:</strong> I am currently building nVortex and do not claim it to be an existing company yet. This is my vision and work in progress. I’m eager to collaborate with experienced developers to make this company a reality and help it grow, Inchallah.</p>
-  <p>I’m only 12 years old, but I’m determined to build nVortex and become its CEO and founder by age 13 or 12. I want to base the company in Berkane, a city that really needs more meaningful companies and development. This is my dream for my hometown, my country, and my future.</p>
+  <p>I’m building <strong>nVortex</strong>, a multipurpose tech company focused on:</p>
+  <ul>
+    <li>🤖 AI and smart solutions</li>
+    <li>📺 Broadcasting & digital media</li>
+    <li>💻 Software development</li>
+  </ul>
+  <p>My goal is to empower communities and bring creative solutions to life.</p>
+  <p><strong>Disclaimer:</strong> nVortex is currently a work in progress. I’m eager to collaborate with experienced developers to make this company a reality, Insha’Allah.</p>
+  <p>I’m only 12 years old, but I’m determined to become the CEO and founder of nVortex by 13. I want to bring development and innovation to Berkane, my hometown, and make a meaningful impact for my country and the world.</p>
+
+  <h2>Presentations, Achievements & Projects</h2>
+  <ul class="projects">
+    <li>💡 <strong>“My Dream: Becoming an IT Expert” – School Presentation (2025)</strong><br>
+      Shared my vision of becoming an IT leader, used AI for slides, added high-quality Pexels images, and inspired classmates and teachers. <em>Highlights research, creativity, and goal-setting.</em>
+    </li>
+    <li>🎭 <strong>STUDCON25 – High Up Academy Student Conference (July 2025)</strong><br>
+      Performed a theater play on student leadership, attended workshops, and applied leadership principles. <em>Developed teamwork, public speaking, and organizational skills.</em>
+    </li>
+    <li>🇲🇦 <strong>“Discover Morocco” – School Presentation (2025)</strong><br>
+      Cultural presentation with self-drawn countryballs and illustrations, balanced with logos and flags from Google. Overcame Office 2019 KMS issues using LibreOffice temporarily. <em>Demonstrates resilience, research, and IT problem-solving.</em>
+    </li>
+    <li>🌱 <strong>“Greenwashing Awareness” – High Up Academy Presentation (2025)</strong><br>
+      Presented environmental topic using AI and stock visuals. Communicated complex ideas clearly. <em>Highlights critical thinking and research integration.</em>
+    </li>
+    <li>🤖 <strong>VEX Robotics & Minecraft Modding</strong><br>
+      Enthusiastic about VEX robotics; creating Minecraft mods simulating VEX robots using Mcreator. <em>Combines STEM, creativity, and technical skills.</em>
+    </li>
+  </ul>
 
   <h2>Collaborators & Mentorship Welcome</h2>
   <div id="collaborators">
@@ -117,7 +157,7 @@
   </div>
 
   <h2>Contact</h2>
-  <p>Feel free to reach out to me via GitHub.</p>
+  <p>Feel free to reach out via <a href="https://github.com/nexustribarixa-redaamakrane">GitHub</a>.</p>
 
   <footer>
     <p>© 2025 Reda Amakrane (Redaush/Nexus Tribarixa). All rights reserved.</p>
