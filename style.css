@@ -3,60 +3,52 @@ body {
   max-width: 800px;
   margin: 50px auto;
   padding: 30px 25px;
-  background: #fdfdfd;
+  background: #f0f8ff; /* light blue background */
   color: #111;
   line-height: 1.6;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
   border-radius: 12px;
 }
 
-/* Main Title */
 h1 {
   font-weight: 800;
   font-size: 3rem;
-  color: #003049; /* dark blue */
-  border-bottom: 4px solid #1d3557; /* navy underline */
+  color: #003366; /* dark blue */
+  border-bottom: 4px solid #001f4d; /* darker blue underline */
   padding-bottom: 10px;
-  text-shadow: 1px 1px 3px rgba(29, 53, 87, 0.4);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   margin-bottom: 1.2em;
 }
 
-/* Section Titles */
 h2 {
   font-weight: 700;
   font-size: 2rem;
-  color: #0077b6; /* bright blue */
+  color: #00509e; /* medium blue */
   margin-top: 3em;
   margin-bottom: 0.75em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
-/* Texts */
 p, ul {
   font-weight: 400;
   font-size: 1.125rem;
   margin-bottom: 1em;
-  color: #222;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+  color: #111;
 }
 
-/* Highlights */
 strong {
-  color: #023e8a; /* deep blue */
+  color: #001f4d;
   font-weight: 700;
-  text-shadow: 0 0 3px rgba(2, 62, 138, 0.6);
 }
 
 em {
-  color: #0096c7; /* turquoise blue */
+  color: #00509e;
   font-style: normal;
   font-weight: 600;
-  text-shadow: 0 0 2px rgba(0, 150, 199, 0.6);
 }
 
-/* Links */
 a {
-  color: #0077b6;
+  color: #003366;
   font-weight: 600;
   text-decoration: none;
 }
@@ -66,20 +58,17 @@ a:hover {
   transition: filter 0.3s ease;
 }
 
-/* Footer */
 footer {
   text-align: center;
   margin-top: 5em;
-  color: #333;
-  border-top: 1px solid #1d3557;
+  color: #222;
+  border-top: 1px solid #003366;
   padding-top: 15px;
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.03em;
-  text-shadow: 0 0 1px rgba(29, 53, 87, 0.3);
 }
 
-/* Projects */
 ul.projects {
   list-style: none;
   padding-left: 0;
@@ -88,20 +77,19 @@ ul.projects {
 ul.projects li {
   margin-bottom: 1.2em;
   padding-left: 0.5em;
-  border-left: 4px solid #1d3557; /* navy */
+  border-left: 4px solid #00509e; /* medium blue */
 }
 
 ul.projects li strong {
-  color: #023e8a;
+  color: #003366; /* dark blue */
 }
 
-/* Collaborators */
 #collaborators {
-  background: #f5faff;
-  border: 2px solid #1d3557;
+  background: #e6f0fa; /* very light blue */
+  border: 2px solid #003366;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(29, 53, 87, 0.2);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   margin-top: 3em;
 }
 
@@ -110,9 +98,8 @@ ul.projects li strong {
   line-height: 1.5;
 }
 
-/* Hover effects */
 em:hover, strong:hover {
-  filter: brightness(1.2);
+  filter: brightness(1.15);
   cursor: default;
   transition: filter 0.3s ease;
 }
