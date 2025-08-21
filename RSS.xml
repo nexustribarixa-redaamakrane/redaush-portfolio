@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Redaush Portfolio Updates</title>
+    <link>https://github.com/nexustribarixa-redaamakrane</link>
+    <description>Latest updates from Nexus Tribarixa's portfolio.</description>
+    <language>en-us</language>
+
+    <item>
+      <title>Portfolio Launched</title>
+      <link>https://github.com/nexustribarixa-redaamakrane</link>
+      <description>Portfolio created and published on July 17, 2025.</description>
+      <pubDate>Thu, 17 Jul 2025 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Blue-Black Theme Updated</title>
+      <link>https://github.com/nexustribarixa-redaamakrane</link>
+      <description>Color scheme updated to shades of blue and black for readability and style.</description>
+      <pubDate>Fri, 19 Jul 2025 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
