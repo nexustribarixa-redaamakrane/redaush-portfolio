@@ -65,4 +65,4 @@ Reach out via GitHub: [nexustribarixa-redaamakrane](https://github.com/nexustrib
 
 ---
 
-© 2025 **Reda Amakrane (Redaush / Nexus Tribarixa)**. All rights reserved. ⚡
+© 2026 **Reda Amakrane (Redaush / Nexus Tribarixa)**. All rights reserved. ⚡
