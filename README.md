@@ -21,36 +21,65 @@ My goal is to empower communities and bring creative solutions to life.
 
 ---
 
-## Achievements & Presentations (2024/2025)
-- 💡 **“My Dream: Becoming an IT Expert” – Middle School Presentation (Dec-Jan)**  
-  Presented my IT ambitions using **MagicalSlides** and high-quality Pexels images. Inspired classmates and teachers with research and creativity.  
+## Software Projects
 
-- 🇲🇦 **“Discover Morocco” – Middle School Presentation (Feb)**  
-  Used LibreOffice to create self-drawn countryballs and illustrations, plus stock logos/flags. Demonstrated resilience and IT problem-solving despite Office 2019 issues.  
+### 💻 fModLoader (FML)
+*Sleek open-source font glyph modification desktop utility.*
+- **Version:** v1.0.4 Beta ("Project Vectoris")
+- **Tech Stack:** Python, PyQt6, fontTools
+- **Features:** 
+  - Full FontForge-inspired font/glyph editor with a responsive grid.
+  - 13 vector drawing tools (Bezier Pen, Node editor, Ruler, Knife intersection, etc.).
+  - Custom file dialog with bookmark navigation.
+  - SVG vector import/apply and built-in script execution engine (Python, FF `.pe`, Cython).
+- **GitHub Repository:** [nexustribarixa-redaamakrane/fmodloader](https://github.com/nexustribarixa-redaamakrane/fmodloader)
 
-- 🦃 **Foods of Morocco – Al Qods Middle School Event (Feb 25)**  
-  Partnered with **Evergreen Community Charter School, US**. Explained Thanksgiving origins accurately. Broke down food culture to US students, earning applause for knowledge and presentation skills.  
+---
 
-- 🌱 **“Greenwashing Awareness” – High Up Academy Presentation (Apr 18)**  
-  Presented in LibreOffice with AI and stock visuals. Communicated clearly and answered questions professionally. Participated in **Public Speaking Competition** about IT.  
+## Achievements & Presentations (2024-2026)
+*THIS IS WHAT I ACHIEVED SO FAR (More to come!)*
 
-- 🏆 **Spelling Bee – Limoune High School (Apr 25)**  
-  Represented my grade and school. Won both group and individual competitions. Boosted confidence and English skills from B1 → C level.  
+- 🏆 **Spelling Bee Winner (Second Award) – Limoune High School (May 15, 2026)**  
+  Represented my school and won both group and individual Spelling Bee competitions for the second consecutive year.
 
-- 🗓️ **MayCON25 – High Up Academy Conference (May)**  
-  Participated in workshops and leadership activities.  
+- 🎙️ **STUDCON26 Motivational Speech – High Up Academy Conference (Apr 27-30, 2026)**  
+  Gave an inspiring motivational speech to students, instructors, and attendees on youth leadership and IT innovation.
 
-- 🖥️ **GitHub & Portfolio Launch (Jul 17)**  
-  Created my GitHub page and personal portfolio.  
+- 🏆 **First Public Speaking Award – High Up Academy (Apr 24, 2026)**  
+  Won first place in the Public Speaking Competition, presenting research and answering panel questions in English.
 
-- 🎭 **STUDCON25 – High Up Academy Conference (Jul 20-24)**  
-  Presented and performed a theater play on student leadership. Learned teamwork, organization, and presentation skills.  
+- 🎓 **1-Year Anniversary – High Up Academy (Apr 12, 2026)**  
+  Celebrated a full year of intensive communication, leadership, and public speaking training at High Up Academy.
 
-- 🎉 **High Up End-of-Conference Party (Jul 25)**  
+- 🤝 **Elite Meet with Dr. Khalid Hajji – High Up Academy (Dec 5, 2025)**  
+  Met with prominent Moroccan scholar and professor Dr. Khalid Hajji during the annual Elite Meet event.
+
+- 🎉 **High Up End-of-Conference Party (Jul 25, 2025)**  
   Enjoyed food and fun with classmates (kebab, kefta, meat in bread).  
 
-- 🤖 **VEX Robotics & Minecraft Modding**  
-  Passionate about robotics and creating mods simulating VEX robots using MCreator.  
+- 🎭 **STUDCON25 – High Up Academy Conference (Jul 20-24, 2025)**  
+  Presented and performed a theater play on student leadership. Learned teamwork, organization, and presentation skills.  
+
+- 🖥 **GitHub & Portfolio Launch (Jul 17, 2025)**  
+  Created my GitHub page and personal portfolio.  
+
+- 🗓 **MayCON25 – High Up Academy Conference (May 2025)**  
+  Participated in workshops and leadership activities.  
+
+- 🏆 **Spelling Bee Winner (First Award) – Limoune High School (Apr 25, 2025)**  
+  Represented my grade and school. Won both group and individual competitions, boosting English from B1 → C level.  
+
+- 🌱 **“Greenwashing Awareness” – High Up Academy Presentation (Apr 18, 2025)**  
+  Presented in LibreOffice with AI and stock visuals. Communicated clearly and answered questions professionally.  
+
+- 🦃 **Foods of Morocco – Al Qods Middle School Event (Feb 25, 2025)**  
+  Partnered with Evergreen Community Charter School (US) to explain Thanksgiving origins and break down Moroccan food culture.  
+
+- 🇲🇦 **“Discover Morocco” – Middle School Presentation (Feb 2025)**  
+  Used LibreOffice to create self-drawn countryballs and illustrations, demonstrating resilience and IT problem-solving.  
+
+- 💡 **“My Dream: Becoming an IT Expert” – Middle School Presentation (Dec 2024 - Jan 2025)**  
+  Presented my IT ambitions using MagicalSlides and high-quality visuals.  
 
 ---
 

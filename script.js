@@ -14,17 +14,23 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${start} ${middle} ${end}`;
   }
 
-  function renderMessage(msg) {
+  function renderMessage(msg, instant = false) {
+    if (instant) {
+      box.textContent = msg;
+      box.classList.add('show');
+      return;
+    }
+    
     box.classList.remove('show');
     setTimeout(() => {
       box.textContent = msg;
       box.classList.add('show');
-    }, 200);
+    }, 500); // 500ms matches the style.css transition time
   }
 
   // New message on refresh
   let msg = generateMessage();
-  renderMessage(msg);
+  renderMessage(msg, true);
 
   // Button click
   btn.addEventListener('click', () => {
