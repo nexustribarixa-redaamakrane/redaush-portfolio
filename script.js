@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const btn = document.getElementById('nextMessageBtn');
-  const box = document.getElementById('messageBox');
+$(document).ready(() => {
+  const $btn = $('#nextMessageBtn');
+  const $box = $('#messageBox');
 
   // Pools
   const starts = ["🚀 Keep", "🔥 Always", "🎨 Keep drawing and", "🤖 Build", "🌊 Flow like water and", "💡 Remember to", "⚡ Never forget to", "📚 Learn", "🎯 Aim to", "🛠️ Try to"];
@@ -16,15 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderMessage(msg, instant = false) {
     if (instant) {
-      box.textContent = msg;
-      box.classList.add('show');
+      $box.text(msg).addClass('show');
       return;
     }
     
-    box.classList.remove('show');
+    $box.removeClass('show');
     setTimeout(() => {
-      box.textContent = msg;
-      box.classList.add('show');
+      $box.text(msg).addClass('show');
     }, 500); // 500ms matches the style.css transition time
   }
 
@@ -33,9 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
   renderMessage(msg, true);
 
   // Button click
-  btn.addEventListener('click', () => {
+  $btn.on('click', () => {
     let next = generateMessage();
-    while (next === box.textContent) {
+    while (next === $box.text()) {
       next = generateMessage(); // avoid duplicate
     }
     renderMessage(next);
