@@ -1,6 +1,6 @@
 # 🌟 Redaush Portfolio - Nexus Tribarixa
 
-Hello! I’m **Reda Amakrane** (nicknames: *Redaush*, *Nexus Tribarixa*), a 12-year-old student and aspiring tech leader from Berkane, Morocco. I love IT, cartoons, robotics, Minecraft modding, and creating innovative solutions! 💻🤖🎨
+Hello! I’m **Reda Amakrane** (nicknames: *Redaush*, *Nexus Tribarixa*), a 13-year-old student and aspiring tech leader from Berkane, Morocco. I love IT, cartoons, robotics, Minecraft modding, and creating innovative solutions! 💻🤖🎨
 
 ---
 
