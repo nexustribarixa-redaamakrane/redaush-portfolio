@@ -17,7 +17,7 @@ I’m building **nVortex**, a multipurpose tech company focused on:
 - 💻 Software development  
 
 My goal is to empower communities and bring creative solutions to life.  
-**Disclaimer:** nVortex is a work in progress. I aim to become its CEO and founder by age 13. I want to bring innovation and development to Berkane, Morocco, and beyond. 🌍
+**Disclaimer:** nVortex is a work in progress. I aim to become its CEO and founder by a young age (not defined yet). I want to bring innovation and development to Berkane, Morocco, and beyond. 🌍
 
 ---
 
