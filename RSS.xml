@@ -7,6 +7,13 @@
     <language>en-us</language>
 
     <item>
+      <title>fModLoader v1.0.65 BETA ('Project Horde') Released</title>
+      <link>https://github.com/nexustribarixa-redaamakrane/fmodloader</link>
+      <description>Released fModLoader v1.0.65 BETA ('Project Horde') on August 25, 2026 - a C#/.NET and AvaloniaUI release with a built-in FontForge-style glyph editor, a 13-tool vector canvas, GlyphData with SVG import and export, ModProject (.ttfm) save and load, a codepoint range manager, and Linux, macOS and FreeBSD build support alongside the published Windows installer.</description>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
       <title>Won Second Spelling Bee Award</title>
       <link>https://github.com/nexustribarixa-redaamakrane</link>
       <description>Represented my school and won both group and individual Spelling Bee competitions for the second consecutive year on May 15, 2026.</description>
@@ -56,17 +63,17 @@
     </item>
 
     <item>
+      <title>Blue-Black Theme Updated</title>
+      <link>https://github.com/nexustribarixa-redaamakrane</link>
+      <description>Color scheme updated to shades of blue and black for readability and style.</description>
+      <pubDate>Sat, 19 Jul 2025 12:00:00 +0000</pubDate>
+    </item>
+
+    <item>
       <title>Portfolio Launched</title>
       <link>https://github.com/nexustribarixa-redaamakrane</link>
       <description>Portfolio created and published on July 17, 2025.</description>
       <pubDate>Thu, 17 Jul 2025 12:00:00 +0000</pubDate>
-    </item>
-
-    <item>
-      <title>Blue-Black Theme Updated</title>
-      <link>https://github.com/nexustribarixa-redaamakrane</link>
-      <description>Color scheme updated to shades of blue and black for readability and style.</description>
-      <pubDate>Fri, 19 Jul 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

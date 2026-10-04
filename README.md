@@ -25,8 +25,8 @@ My goal is to empower communities and bring creative solutions to life.
 
 ### 💻 fModLoader (FML)
 *Sleek open-source font glyph modification desktop utility.*
-- **Version:** v1.0.4 Beta ("Project Vectoris")
-- **Tech Stack:** Python, PyQt6, fontTools
+- **Version:** v1.0.65 Beta ("Project Horde")
+- **Tech Stack:** C# (.NET Core + Avalonia UI)
 - **Features:** 
   - Full FontForge-inspired font/glyph editor with a responsive grid.
   - 13 vector drawing tools (Bezier Pen, Node editor, Ruler, Knife intersection, etc.).
